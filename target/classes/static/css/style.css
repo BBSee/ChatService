@@ -37,7 +37,7 @@ input[type=password], select {
 
 button {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #148dff;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -47,7 +47,7 @@ button {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #0e53ff;
 }
 
 .login_container {
@@ -61,7 +61,7 @@ input[type=submit]:hover {
 
 
 body {
-    background-color: #3e94ec;
+    background-color: #85d4ff;
     font-family: "Roboto", helvetica, arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -104,9 +104,9 @@ div.table-title {
 
 th {
     color: #ffffff;;
-    background:#45a049;
+    background: #3174a0;
     border-bottom:4px solid #9ea7af;
-    border-right: 1px solid #2fdd19;
+    border-right: 1px solid #148dff;
     font-size:23px;
     font-weight: 100;
     padding:24px;
@@ -133,7 +133,7 @@ tr {
 }
 
 tr:hover td {
-    background: #589955;
+    background: #0f8499;
     color:#FFFFFF;
 }
 
@@ -185,11 +185,11 @@ td.text-right {
 
 
 body {
-    background: #76b852; /* fallback for old browsers */
-    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-    background: -moz-linear-gradient(right, #76b852, #8DC26F);
-    background: -o-linear-gradient(right, #76b852, #8DC26F);
-    background: linear-gradient(to left, #76b852, #8DC26F);
+    background: #148dff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #0e53ff, #148dff);
+    background: -moz-linear-gradient(right, #0e53ff, #148dff);
+    background: -o-linear-gradient(right, #0e53ff, #148dff);
+    background: linear-gradient(to left, #0e53ff, #148dff);
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -255,7 +255,7 @@ body {
 }
 /* Меняем фон чекбокса, когда он включен. */
 .checkbox:checked + label:before {
-    background: #9FD468;
+    background: #6b82a0;
 }
 /* Сдвигаем переключатель чекбокса, когда он включен. */
 .checkbox:checked + label:after {
@@ -263,5 +263,5 @@ body {
 }
 /* Показываем получение фокуса. */
 .checkbox:focus + label:before {
-    box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+    box-shadow: 0 0 0 3px rgba(97, 56, 255, 0.5);
 }
