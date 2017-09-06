@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Чат - авторизация</title>
+    <title>Authorization</title>
     <script language="javascript" type="text/javascript"
             src="http://code.jquery.com/jquery-2.1.1.min.js">
     </script>
@@ -15,14 +15,14 @@
 <body>
 <div class="chat_container">
     <div class="form">
-        <label for="login">Логин</label>
+        <label for="login">Login</label>
         <br>
-        <input type="text" id="login" name="login" placeholder="Логин.." required
+        <input type="text" id="login" name="login" placeholder="Login.." required
 
         <br>
-        <label for="password">Пароль</label>
+        <label for="password">Password</label>
         <br>
-        <input type="password" id="password" name="password" placeholder="Пароль.." required
+        <input type="password" id="password" name="password" placeholder="Password.." required
                onkeydown="if (event.keyCode == 13) {login(
         document.getElementById('login').value,
         document.getElementById('password').value);
@@ -30,7 +30,7 @@
         <br>
         <button id="submit" onclick="login(
         document.getElementById('login').value,
-        document.getElementById('password').value)">Вход
+        document.getElementById('password').value)">Enter
         </button>
     </div>
 </div>

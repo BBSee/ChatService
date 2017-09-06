@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Чат - авторизация</title>
+    <title>Authorization</title>
     <script language="javascript" type="text/javascript"
             src="http://code.jquery.com/jquery-2.1.1.min.js">
     </script>
@@ -15,9 +15,9 @@
 <body>
 <div class="chat_container">
     <div class="form">
-        <input id="chat_name" type="text" placeholder="Название чата"/>
-        <button id="submit" title="Добавить" onclick="addChat(
-            document.getElementById('chat_name').value)">Добавить
+        <input id="chat_name" type="text" placeholder="Chat name"/>
+        <button id="submit" title="Add" onclick="addChat(
+            document.getElementById('chat_name').value)">Add
         </button>
         <input type="text" id="message" placeholder="enter message here..." value=""
                onkeydown="if (event.keyCode == 13) {addChat(
