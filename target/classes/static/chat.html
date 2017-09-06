@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <script language="javascript" type="text/javascript"
+            src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script language="javascript" type="text/javascript"
+            src="js/functions.js"></script>
+    <script language="javascript" type="text/javascript"
+            src="js/chat.js"></script>
+
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="chat_container">
+    <div class="form">
+        <input type="text" id="message" placeholder="enter message here..." value=""
+               onkeydown="if (event.keyCode == 13) {sendMessage(
+document.getElementById('message')
+); return false; }"/>
+        <button id="send" onclick="sendMessage(
+            document.getElementById('message')
+        )">Отправить
+        </button>
+        <br/>
+        <select id="chatMessagesList" size="30" disabled></select>
+    </div>
+</div>
+</body>
+</html>
+
